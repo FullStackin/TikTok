@@ -2,10 +2,12 @@ import React from 'react';
 
 import {View, Text} from 'react-native';
 
+import Video from 'react-native-video';
+
 const Post = () => {
   return (
     <View>
-      <Text>Post</Text>
+      <Video source={{ url: }} >
     </View>
   );
 };
