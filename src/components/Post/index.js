@@ -1,14 +1,13 @@
 import React from 'react';
 
 import {View, Text} from 'react-native';
-import Post from '../../components/Post';
 
-const Home = () => {
+const Post = () => {
   return (
     <View>
-      <Post />
+      <Text>Post</Text>
     </View>
   );
 };
 
-export default Home;
+export default Post;
